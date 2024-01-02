@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  height: 100vh; /* 100% of the viewport height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ebc2c2; /* Add your highlighted background color */
+}
+
+.centered-text {
+  font-size: 24px; /* Adjust the font size as needed */
+  background-color: yellow; /* Add your highlighted background color */
+  padding: 20px; /* Add padding for better visibility */
+}

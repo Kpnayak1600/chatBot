@@ -1,0 +1,79 @@
+.Chatbox {
+  max-height: 390px;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+.UserInput {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+}
+
+.UserInput input {
+  flex: 1;
+  padding: 8px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+.UserInput button {
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.UserInput button:hover {
+  background-color: #0056b3;
+}
+
+.StartChatButton {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.StartChatButton:hover {
+  background-color: #0056b3;
+}
+
+.user-weather {
+  background-color: #cce5ff; /* Light blue background for user weather content */
+  padding: 8px;
+  margin: 5px 0;
+  border-radius: 8px;
+}
+
+.bot-weather {
+  background-color: #f0f0f0; /* Light gray background for bot weather content */
+  padding: 8px;
+  margin: 5px 0;
+  border-radius: 8px;
+}
+
+.KeywordButton {
+  background-color: #a0e8ca;
+  color: white;
+  margin: 2%;
+  border: none;
+  padding: 10px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.KeywordButton:hover {
+  background-color: #21d386;
+}
